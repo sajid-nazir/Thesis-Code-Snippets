@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "id": "093",
+    "title": "Excavation Permits",
+    "description": "Overview of excavation permits issued for public roads or private shared roads in Copenhagen Municipality.",
+    "source_url": "https://www.opendata.dk/city-of-copenhagen/gravetilladelser",
+    "geojson_url": "https://wfs-kbhkort.kk.dk/k101/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=k101:gravetilladelser_aktiv_aabne&outputFormat=json&SRSNAME=EPSG:4326",
+    "file_size_bytes": 1456699,
+    "feature_count": 2414,
+    "geometry_types": [
+      "Polygon",
+      "Point",
+      "LineString"
+    ],
+    "bbox": null,
+    "location": {
+      "city": "København",
+      "municipality": "Københavns Kommune",
+      "region": "Region Hovedstaden",
+      "country": "Denmark",
+      "country_code": "DK",
+      "display_name": "København, Københavns Kommune, Region Hovedstaden, 1357, Denmark",
+      "coordinates": {
+        "lat": 55.70867117,
+        "lon": 12.59456432
+      },
+      "nominatim_original": {
+        "city": "København",
+        "municipality": "Københavns Kommune",
+        "region": "Region Hovedstaden",
+        "country": "Denmark"
+      },
+      "inference": {
+        "fields_inferred": [],
+        "inference_log": [],
+        "validation_errors": [],
+        "confidence": "original_data",
+        "complete": true
+      }
+    },
+    "collected_at": "2026-02-17 12:45:19",
+    "title_original": "Gravetilladelser",
+    "description_original": "Oversigt over gravetilladelser givet på offentlige veje eller private fællesveje i Københavns Kommune."
+  },
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "gravetilladelser_aktiv_aabne.fid--799b6bb_19c6b6adcd2_-1e1f",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.59456432,
+            55.70867117
+          ]
+        },
+        "geometry_name": "wkb_geometry",
+        "properties": {
+          "ogc_fid": 38621,
+          "location": "Helsinkigade 11",
+          "project_start": "08-04-24",
+          "project_end": "03-04-26",
+          "case_type": "Excavation permits",
+          "time_from": "07:00",
+          "time_to": "17:00",
+          "category": "Sheet pile",
+          "case_number": 601847,
+          "excavation_surface_type": "Pavement",
+          "client": "NSF IV Denmark Advisory ApS",
+          "contractor": "5E BYG A/S",
+          "global_id": 65672
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "gravetilladelser_aktiv_aabne.fid--799b6bb_19c6b6adcd2_-1e1e",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                12.5942087,
+                55.70866483
+              ],
+              [
+                12.59475427,
+                55.70856519
+              ],
+              [
+                12.59476657,
+                55.70858655
+              ],
+              [
+                12.59422099,
+                55.7086862
+              ],
+              [
+                12.5942087,
+                55.70866483
+              ]
+            ]
+          ]
+        },
+        "geometry_name": "wkb_geometry",
+        "properties": {
+          "ogc_fid": 38622,
+          "location": "Helsinkigade 11",
+          "project_start": "08-04-24",
+          "project_end": "03-04-26",
+          "case_type": "Excavation permits",
+          "time_from": "07:00",
+          "time_to": "17:00",
+          "category": "Sheet pile",
+          "case_number": 601847,
+          "excavation_surface_type": "Pavement",
+          "client": "NSF IV Denmark Advisory ApS",
+          "contractor": "5E BYG A/S",
+          "global_id": 65673
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "gravetilladelser_aktiv_aabne.fid--799b6bb_19c6b6adcd2_-1e1d",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              12.59398985,
+              55.70864798
+            ],
+            [
+              12.59445741,
+              55.70855736
+            ]
+          ]
+        },
+        "geometry_name": "wkb_geometry",
+        "properties": {
+          "ogc_fid": 39586,
+          "location": "Helsinkigade 5 - 11",
+          "project_start": "05-07-24",
+          "project_end": "13-05-26",
+          "case_type": "Excavation permits",
+          "time_from": "07:00",
+          "time_to": "15:00",
+          "category": "Temporary Driveway Crossing",
+          "case_number": 628355,
+          "excavation_surface_type": "Parking area",
+          "client": "NSF IV Denmark Advisory ApS",
+          "contractor": "5E BYG A/S",
+          "global_id": 65674
+        }
+      }
+    ]
+  }
+}

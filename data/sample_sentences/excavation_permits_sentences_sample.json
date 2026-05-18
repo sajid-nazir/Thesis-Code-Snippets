@@ -1,0 +1,106 @@
+[
+  {
+    "collection": "excavation_permits_koebenhavn_kommune",
+    "text": "An excavation permit at Helsinkigade 11, Københavns Kommune for sheet pile affecting pavement. The project runs from 8 April 2024 to 3 April 2026, with daily work hours from 7 in the morning to 5 in the evening. Client: NSF IV Denmark Advisory ApS; contractor: 5E BYG A/S.",
+    "properties": {
+      "ogc_fid": 38621,
+      "location": "Helsinkigade 11",
+      "project_start": "08-04-24",
+      "project_end": "03-04-26",
+      "case_type": "Excavation permits",
+      "time_from": "07:00",
+      "time_to": "17:00",
+      "category": "Sheet pile",
+      "case_number": 601847,
+      "excavation_surface_type": "Pavement",
+      "client": "NSF IV Denmark Advisory ApS",
+      "contractor": "5E BYG A/S",
+      "global_id": 65672
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.59456432,
+        55.70867117
+      ]
+    }
+  },
+  {
+    "collection": "excavation_permits_koebenhavn_kommune",
+    "text": "An excavation permit at Helsinkigade 11, Københavns Kommune for sheet pile affecting pavement. The project runs from 8 April 2024 to 3 April 2026, with daily work hours from 7 in the morning to 5 in the evening. Client: NSF IV Denmark Advisory ApS; contractor: 5E BYG A/S.",
+    "properties": {
+      "ogc_fid": 38622,
+      "location": "Helsinkigade 11",
+      "project_start": "08-04-24",
+      "project_end": "03-04-26",
+      "case_type": "Excavation permits",
+      "time_from": "07:00",
+      "time_to": "17:00",
+      "category": "Sheet pile",
+      "case_number": 601847,
+      "excavation_surface_type": "Pavement",
+      "client": "NSF IV Denmark Advisory ApS",
+      "contractor": "5E BYG A/S",
+      "global_id": 65673
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            12.5942087,
+            55.70866483
+          ],
+          [
+            12.59475427,
+            55.70856519
+          ],
+          [
+            12.59476657,
+            55.70858655
+          ],
+          [
+            12.59422099,
+            55.7086862
+          ],
+          [
+            12.5942087,
+            55.70866483
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "collection": "excavation_permits_koebenhavn_kommune",
+    "text": "An excavation permit at Helsinkigade 5 - 11, Københavns Kommune for temporary driveway crossing affecting parking area. The project runs from 5 July 2024 to 13 May 2026, with daily work hours from 7 in the morning to 3 in the afternoon. Client: NSF IV Denmark Advisory ApS; contractor: 5E BYG A/S.",
+    "properties": {
+      "ogc_fid": 39586,
+      "location": "Helsinkigade 5 - 11",
+      "project_start": "05-07-24",
+      "project_end": "13-05-26",
+      "case_type": "Excavation permits",
+      "time_from": "07:00",
+      "time_to": "15:00",
+      "category": "Temporary Driveway Crossing",
+      "case_number": 628355,
+      "excavation_surface_type": "Parking area",
+      "client": "NSF IV Denmark Advisory ApS",
+      "contractor": "5E BYG A/S",
+      "global_id": 65674
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          12.59398985,
+          55.70864798
+        ],
+        [
+          12.59445741,
+          55.70855736
+        ]
+      ]
+    }
+  }
+]

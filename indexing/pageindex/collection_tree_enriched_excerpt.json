@@ -1,0 +1,214 @@
+{
+  "version": "2.0",
+  "total_datasets": 40,
+  "regions": {
+    "Region Midtjylland": {
+      "municipalities": {
+        "Syddjurs Kommune": {
+          "dataset_count": 7,
+          "topic_groups": {
+            "Nature & Recreation": {
+              "datasets": [
+                {
+                  "key": "bird_towers_syddjurs_kommune",
+                  "title": "Bird Watching Towers",
+                  "description": "Bird watching towers in Syddjurs Kommune",
+                  "feature_count": 6,
+                  "geometry_types": [
+                    "MultiPoint"
+                  ],
+                  "municipality": "Syddjurs Kommune",
+                  "region": "Region Midtjylland",
+                  "domain_tags": [
+                    "nature",
+                    "wildlife"
+                  ],
+                  "property_keys": [
+                    "name",
+                    "type_category",
+                    "sub_category",
+                    "address",
+                    "remarks_1",
+                    "remarks_2",
+                    "remarks_3",
+                    "id_number",
+                    "owner",
+                    "condition"
+                  ]
+                },
+                {
+                  "key": "dog_forests_syddjurs_kommune",
+                  "title": "Off-Leash Dog Areas",
+                  "description": "Off-leash dog areas in Syddjurs Municipality",
+                  "feature_count": 3,
+                  "geometry_types": [
+                    "MultiPoint"
+                  ],
+                  "municipality": "Syddjurs Kommune",
+                  "region": "Region Midtjylland",
+                  "domain_tags": [
+                    "animals",
+                    "recreation"
+                  ],
+                  "property_keys": [
+                    "name",
+                    "type_category",
+                    "sub_category",
+                    "address",
+                    "remarks_1",
+                    "remarks_2",
+                    "remarks_3",
+                    "id_number",
+                    "owner",
+                    "condition"
+                  ]
+                },
+                {
+                  "key": "hiking_routes_syddjurs_kommune",
+                  "title": "Hiking Routes in Syddjurs Municipality",
+                  "description": "Syddjurs Municipality has several hiking routes passing through varied landscapes, including Nationalpark Mols Bjerge. The area consists of hills, heathland, forest, and coastal stretches, offering...",
+                  "feature_count": 122,
+                  "geometry_types": [
+                    "MultiLineString"
+                  ],
+                  "municipality": "Syddjurs Kommune",
+                  "region": "Region Midtjylland",
+                  "domain_tags": [
+                    "hiking",
+                    "recreation"
+                  ],
+                  "property_keys": [
+                    "trail_name",
+                    "trail_type",
+                    "difficulty_level",
+                    "misc_feature",
+                    "remark",
+                    "id_number",
+                    "description"
+                  ]
+                },
+                {
+                  "key": "nature_and_visitor_centres_syddjurs_kommune",
+                  "title": "Nature and Visitor Centres",
+                  "description": "Information centres in Syddjurs Kommune",
+                  "feature_count": 7,
+                  "geometry_types": [
+                    "MultiPoint"
+                  ],
+                  "municipality": "Syddjurs Kommune",
+                  "region": "Region Midtjylland",
+                  "domain_tags": [
+                    "nature"
+                  ],
+                  "property_keys": [
+                    "name",
+                    "type_category",
+                    "sub_category",
+                    "address",
+                    "remarks_1",
+                    "remarks_2",
+                    "remarks_3",
+                    "id_number",
+                    "owner",
+                    "condition"
+                  ]
+                },
+                {
+                  "key": "nature_tables_and_benches_syddjurs_kommune",
+                  "title": "Tables and benches",
+                  "description": "Tables and benches in nature areas in Syddjurs Kommune",
+                  "feature_count": 90,
+                  "geometry_types": [
+                    "MultiPoint"
+                  ],
+                  "municipality": "Syddjurs Kommune",
+                  "region": "Region Midtjylland",
+                  "domain_tags": [
+                    "nature"
+                  ],
+                  "property_keys": [
+                    "name",
+                    "type_category",
+                    "sub_category",
+                    "address",
+                    "remarks_1",
+                    "remarks_2",
+                    "remarks_3",
+                    "id_number",
+                    "owner",
+                    "condition"
+                  ]
+                }
+              ],
+              "count": 5
+            },
+            "Other": {
+              "datasets": [
+                {
+                  "key": "small_campsites_syddjurs_kommune",
+                  "title": "Small Campsites",
+                  "description": "Small campsites in Syddjurs Kommune.",
+                  "feature_count": 14,
+                  "geometry_types": [
+                    "MultiPoint"
+                  ],
+                  "municipality": "Syddjurs Kommune",
+                  "region": "Region Midtjylland",
+                  "domain_tags": [
+                    "general"
+                  ],
+                  "property_keys": [
+                    "name",
+                    "type_category",
+                    "sub_category",
+                    "address",
+                    "remarks_1",
+                    "remarks_2",
+                    "remarks_3",
+                    "id_number",
+                    "owner",
+                    "condition"
+                  ]
+                }
+              ],
+              "count": 1
+            },
+            "Wildlife & Outdoors": {
+              "datasets": [
+                {
+                  "key": "kayak_primitive_camping_sites_syddjurs_kommune",
+                  "title": "Kayak Overnight Stay, Primitive",
+                  "description": "Kayak primitive overnight camping in Syddjurs Municipality",
+                  "feature_count": 16,
+                  "geometry_types": [
+                    "MultiPoint"
+                  ],
+                  "municipality": "Syddjurs Kommune",
+                  "region": "Region Midtjylland",
+                  "domain_tags": [
+                    "camping",
+                    "recreation",
+                    "water_sports"
+                  ],
+                  "property_keys": [
+                    "name",
+                    "type_category",
+                    "sub_category",
+                    "address",
+                    "remarks_1",
+                    "remarks_2",
+                    "remarks_3",
+                    "id_number",
+                    "owner",
+                    "condition"
+                  ]
+                }
+              ],
+              "count": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

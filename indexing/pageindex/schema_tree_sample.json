@@ -1,0 +1,214 @@
+{
+  "dataset_key": "excavation_permits_koebenhavn_kommune",
+  "title": "Excavation Permits",
+  "feature_count": 2414,
+  "property_count": 13,
+  "properties": {
+    "ogc_fid": {
+      "type": "number",
+      "null_rate": 0.0,
+      "unique_count": 2414,
+      "top_values": [
+        {
+          "value": "38621",
+          "count": 1
+        },
+        {
+          "value": "38622",
+          "count": 1
+        },
+        {
+          "value": "39586",
+          "count": 1
+        },
+        {
+          "value": "39942",
+          "count": 1
+        },
+        {
+          "value": "39944",
+          "count": 1
+        },
+        {
+          "value": "41257",
+          "count": 1
+        },
+        {
+          "value": "41268",
+          "count": 1
+        },
+        {
+          "value": "41270",
+          "count": 1
+        },
+        {
+          "value": "42818",
+          "count": 1
+        },
+        {
+          "value": "42819",
+          "count": 1
+        }
+      ],
+      "min": 38621,
+      "max": 93791,
+      "example": 38621
+    },
+    "location": {
+      "type": "string",
+      "null_rate": 0.0,
+      "unique_count": 1048,
+      "top_values": [
+        {
+          "value": "Fiolstræde 7 - 17",
+          "count": 16
+        },
+        {
+          "value": "Ryparken 12 - 96",
+          "count": 15
+        },
+        {
+          "value": "Ove Rodes Plads 1",
+          "count": 12
+        },
+        {
+          "value": "Nørregade 18 - 28",
+          "count": 12
+        },
+        {
+          "value": "Ny Carlsberg Vej 13 - 23",
+          "count": 12
+        },
+        {
+          "value": "Rentemestervej 2 - 2B",
+          "count": 10
+        },
+        {
+          "value": "Holsteinsgade 17 - 31",
+          "count": 10
+        },
+        {
+          "value": "Åkandevej 55",
+          "count": 10
+        },
+        {
+          "value": "Bevtoftgade 2",
+          "count": 10
+        },
+        {
+          "value": "Ruten 2",
+          "count": 10
+        }
+      ],
+      "example": "Helsinkigade 11"
+    },
+    "project_start": {
+      "type": "string",
+      "null_rate": 0.0,
+      "unique_count": 173,
+      "top_values": [
+        {
+          "value": "09-02-26",
+          "count": 197
+        },
+        {
+          "value": "02-02-26",
+          "count": 167
+        },
+        {
+          "value": "16-02-26",
+          "count": 130
+        },
+        {
+          "value": "23-02-26",
+          "count": 108
+        },
+        {
+          "value": "07-02-26",
+          "count": 84
+        },
+        {
+          "value": "02-03-26",
+          "count": 81
+        },
+        {
+          "value": "26-01-26",
+          "count": 72
+        },
+        {
+          "value": "14-02-26",
+          "count": 64
+        },
+        {
+          "value": "05-02-26",
+          "count": 53
+        },
+        {
+          "value": "01-01-26",
+          "count": 46
+        }
+      ],
+      "example": "08-04-24"
+    },
+    "project_end": {
+      "type": "string",
+      "null_rate": 0.0,
+      "unique_count": 145,
+      "top_values": [
+        {
+          "value": "27-02-26",
+          "count": 268
+        },
+        {
+          "value": "20-02-26",
+          "count": 255
+        },
+        {
+          "value": "06-03-26",
+          "count": 252
+        },
+        {
+          "value": "27-03-26",
+          "count": 105
+        },
+        {
+          "value": "31-03-26",
+          "count": 101
+        },
+        {
+          "value": "02-03-26",
+          "count": 93
+        },
+        {
+          "value": "13-03-26",
+          "count": 91
+        },
+        {
+          "value": "20-03-26",
+          "count": 85
+        },
+        {
+          "value": "31-12-26",
+          "count": 74
+        },
+        {
+          "value": "28-02-26",
+          "count": 72
+        }
+      ],
+      "example": "03-04-26"
+    },
+    "case_type": {
+      "type": "string",
+      "null_rate": 0.0,
+      "unique_count": 1,
+      "top_values": [
+        {
+          "value": "Excavation permits",
+          "count": 2414
+        }
+      ],
+      "example": "Excavation permits"
+    }
+  }
+}

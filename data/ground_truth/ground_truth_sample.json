@@ -1,0 +1,231 @@
+[
+  {
+    "id": "q046",
+    "question": "I'm taking the family on a hike near Knebel in Syddjurs and the kids will want to stop for lunch. How many picnic tables are within a few kilometres?",
+    "answer_exact": "10",
+    "answer_type": "numeric_spatial",
+    "category": "spatial_radius",
+    "relevant_file": "nature_tables_and_benches_syddjurs_kommune.json",
+    "relevant_field": null,
+    "id_field_used": "uuid",
+    "relevant_feature_ids": [
+      "1258054e-e12a-4754-bf44-f189e0a0ce79",
+      "40ec36b6-d9d2-46d7-b3d3-3be282eec469",
+      "091f013d-10af-421b-9e6a-eb26c30da3d1",
+      "7d37866f-7c94-47cb-8475-0317322195fd",
+      "a92919b8-5d36-4f18-bff3-57635a97fffb",
+      "ff16a4ba-90dc-4ce7-965d-eaa7a48849bd",
+      "92410fdb-6072-47bb-9a82-ff14119252ec",
+      "c3bca413-04d1-4cfa-b93f-d9afa8fce4ce",
+      "b09675f0-c601-4901-a150-9211f82ad39a",
+      "5a94274e-ab71-41e4-8e23-e0358dc001f0"
+    ],
+    "total_relevant_features": 10,
+    "total_features_in_file": 90,
+    "persona": "family on a day hike",
+    "reasoning": "'Picnic tables' → tables and benches.",
+    "spatial_info": {
+      "center_lon": 10.49,
+      "center_lat": 56.215,
+      "radius_m": 3000
+    }
+  },
+  {
+    "id": "q050",
+    "question": "I live in Valby and have a pile of recycling to drop off. How many recycling centres are within reasonable distance?",
+    "answer_exact": "3",
+    "answer_type": "numeric_spatial",
+    "category": "spatial_radius",
+    "relevant_file": "recycling_centres_koebenhavn_kommune.json",
+    "relevant_field": null,
+    "id_field_used": "id",
+    "relevant_feature_ids": [
+      5,
+      42,
+      32
+    ],
+    "total_relevant_features": 3,
+    "total_features_in_file": 22,
+    "persona": "Valby resident",
+    "reasoning": "Wider radius for sparse dataset.",
+    "spatial_info": {
+      "center_lon": 12.511,
+      "center_lat": 55.6638,
+      "radius_m": 2000
+    }
+  },
+  {
+    "id": "q127",
+    "question": "I'm standing on Rosensgade in Aarhus city centre. What is the nearest listed heritage building to me?",
+    "answer_exact": "2311",
+    "answer_type": "nearest_feature_id",
+    "category": "spatial_nearest",
+    "relevant_file": "heritage_buildings_aarhus_kommune.json",
+    "relevant_field": null,
+    "id_field_used": "id",
+    "relevant_feature_ids": [
+      2311
+    ],
+    "total_relevant_features": 1,
+    "total_features_in_file": 6127,
+    "persona": "tourist on Rosensgade Aarhus",
+    "reasoning": "Tourist on Rosensgade Aarhus wants nearest heritage building. Tests nearest-neighbour on UTM32N heritage dataset.",
+    "spatial_info": {
+      "center_lon": 10.2136,
+      "center_lat": 56.1582,
+      "area": "Rosensgade, Aarhus"
+    }
+  },
+  {
+    "id": "q128",
+    "question": "I live in Risskov in northern Aarhus and want to rent an allotment garden. Which allotment association is closest to my neighbourhood?",
+    "answer_exact": "8c2d727f-2b80-41a7-a2d4-6661b5cf17d1",
+    "answer_type": "nearest_feature_id",
+    "category": "spatial_nearest",
+    "relevant_file": "allotment_gardens_aarhus_kommune.json",
+    "relevant_field": null,
+    "id_field_used": "generated_uuid",
+    "relevant_feature_ids": [
+      "8c2d727f-2b80-41a7-a2d4-6661b5cf17d1"
+    ],
+    "total_relevant_features": 1,
+    "total_features_in_file": 43,
+    "persona": "Risskov resident interested in gardening",
+    "reasoning": "Resident in Risskov wants nearest allotment garden. Tests nearest-neighbour on Aarhus allotments with UTM32N.",
+    "spatial_info": {
+      "center_lon": 10.21,
+      "center_lat": 56.1895,
+      "area": "Risskov, northern Aarhus"
+    }
+  },
+  {
+    "id": "q055",
+    "question": "I'm looking for a municipal council-run daycare near Østerbro — we prefer publicly operated nurseries over private ones. Are there any nearby?",
+    "answer_exact": "1",
+    "answer_type": "numeric",
+    "category": "property_filter",
+    "relevant_file": "daycare_institutions_koebenhavn_kommune.json",
+    "relevant_field": "ownership",
+    "id_field_used": "id",
+    "relevant_feature_ids": [
+      1319
+    ],
+    "total_relevant_features": 1,
+    "total_features_in_file": 537,
+    "persona": "new parent",
+    "reasoning": "'Municipal' daycare ownership.",
+    "spatial_info": null
+  },
+  {
+    "id": "q018",
+    "question": "I'm hiking with my elderly father near Mols Bjerge and he can't manage long distances. How many short walking trails are within 2 km of us?",
+    "answer_exact": "7",
+    "answer_type": "numeric",
+    "category": "property_filter",
+    "relevant_file": "hiking_routes_syddjurs_kommune.json",
+    "relevant_field": "trail_type",
+    "id_field_used": "ogc_fid",
+    "relevant_feature_ids": [
+      76,
+      25,
+      26,
+      27,
+      38,
+      40,
+      61
+    ],
+    "total_relevant_features": 7,
+    "total_features_in_file": 122,
+    "persona": "hiker with an elderly companion",
+    "reasoning": "'Short walking trails' → Short trail route.",
+    "spatial_info": {
+      "center_lon": 10.57,
+      "center_lat": 56.22,
+      "radius_m": 2000
+    }
+  },
+  {
+    "id": "q068",
+    "question": "I need somewhere to sit down near Tivoli. Anything?",
+    "answer_exact": "4",
+    "answer_type": "numeric",
+    "category": "conversational",
+    "relevant_file": "city_furniture_inventory_koebenhavn.json",
+    "relevant_field": null,
+    "id_field_used": "generated_uuid",
+    "relevant_feature_ids": [
+      "064a3af1-0eb0-4c89-b65b-3b34a065cc4e",
+      "e59b80de-3ab4-4748-b541-c5b00e347f8b",
+      "edf8bf71-2e38-4c81-a5b7-f819f8c5aec1",
+      "4c1dbc83-0218-4301-af1f-c2cdab91b69e"
+    ],
+    "total_relevant_features": 4,
+    "total_features_in_file": 21889,
+    "persona": "elderly person",
+    "reasoning": "'Sit down' → benches/furniture.",
+    "spatial_info": {
+      "center_lon": 12.5681,
+      "center_lat": 55.6737,
+      "radius_m": 150
+    }
+  },
+  {
+    "id": "q074",
+    "question": "Need a nursery for our 2-year-old near Valby.",
+    "answer_exact": "6",
+    "answer_type": "numeric",
+    "category": "conversational",
+    "relevant_file": "daycare_institutions_koebenhavn_kommune.json",
+    "relevant_field": null,
+    "id_field_used": "id",
+    "relevant_feature_ids": [
+      3154,
+      1069,
+      3153,
+      1036,
+      1034,
+      1041
+    ],
+    "total_relevant_features": 6,
+    "total_features_in_file": 537,
+    "persona": "new parent",
+    "reasoning": "'Nursery' → daycare institutions.",
+    "spatial_info": {
+      "center_lon": 12.511,
+      "center_lat": 55.6638,
+      "radius_m": 500
+    }
+  },
+  {
+    "id": "q194",
+    "question": "Are the bicycle parking racks in Copenhagen secure enough to leave my expensive road bike overnight?",
+    "answer_exact": "NOT_ANSWERABLE",
+    "answer_type": "not_answerable",
+    "category": "unanswerable",
+    "relevant_file": null,
+    "relevant_field": null,
+    "id_field_used": null,
+    "relevant_feature_ids": [],
+    "total_relevant_features": 0,
+    "total_features_in_file": 0,
+    "persona": "road cyclist",
+    "reasoning": "TRICKY: Bike rack data exists but security ratings or overnight theft risk are NOT stored fields. The dataset has rack type, condition, and location — not security assessments.",
+    "spatial_info": null
+  },
+  {
+    "id": "q168",
+    "question": "I'm cycling around Aarhus and I see some old terraced houses near a park. Are these buildings protected in any way?",
+    "answer_exact": "NOT_ANSWERABLE",
+    "answer_type": "not_answerable",
+    "category": "unanswerable",
+    "relevant_file": null,
+    "relevant_field": null,
+    "id_field_used": null,
+    "relevant_feature_ids": [],
+    "total_relevant_features": 0,
+    "total_features_in_file": 0,
+    "persona": "cyclist in Aarhus",
+    "reasoning": "CONVERSATIONAL: Heritage data exists but 'some old terraced houses near a park' gives no specific location or address — unanswerable without coordinates.",
+    "spatial_info": null
+  }
+]
