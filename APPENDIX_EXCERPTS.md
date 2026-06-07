@@ -198,7 +198,7 @@ def execute_plan(plan: dict, collections_dir: Path) -> dict:
         return {"count": len(filtered_with_dist), "features": [...]}
 ```
 
-Source: `/Users/sajid/Desktop/geospatial-rag-pipeline/shared_rag/query_executor.py`
+Source: `shared_rag/query_executor.py`
 
 ---
 
@@ -243,7 +243,7 @@ def run_agent(question: str, client) -> AgentTrace:
     return trace
 ```
 
-Source: `/Users/sajid/Desktop/geospatial-rag-pipeline/agentic_rag/agent.py`
+Source: `agentic_rag/agent.py`
 
 ---
 
@@ -274,7 +274,7 @@ MATCH (d:Dataset)-[:HAS_TOPIC]->(t:Topic {name: 'construction'})
 RETURN d.key, d.title
 ```
 
-Source: `/Users/sajid/Desktop/geospatial-rag-pipeline/agentic_rag/tools_graph.py`
+Source: `agentic_rag/tools_graph.py`
 
 ---
 
@@ -404,7 +404,7 @@ One municipality's topic-grouped structure (Københavns Kommune, showing 2 of 5 
 }
 ```
 
-Source: `/Users/sajid/Desktop/geospatial-rag-pipeline/pageindex_rag/indexes/collection_tree_enriched.json`
+Source: `pageindex_rag/indexes/collection_tree_enriched.json`
 
 ---
 
