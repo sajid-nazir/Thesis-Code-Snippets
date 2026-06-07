@@ -3,6 +3,8 @@
 Representative code excerpts and sample data for the thesis:
 *"Retrieval-Augmented Generation for Geospatial Question Answering over Danish Municipal Data"*
 
+The code files are illustrative excerpts of the core logic. The LLM client and model identifier are passed in as parameters; no endpoints, credentials, or model names are embedded.
+
 ## Structure
 
 ```
@@ -29,17 +31,22 @@ thesis_code_snippets/
 │       └── ingest_postgis.py        GeoJSON → PostGIS table loader
 │
 ├── retrieval/
-│   ├── query_executor.py            Shared structured query engine (Python)
+│   ├── query_executor.py            Shared deterministic query engine (Python)
+│   ├── query_planner.py             NL question + schema → structured JSON query plan
 │   ├── vector_rag/
 │   │   ├── search.py                Hybrid dense+sparse search with RRF fusion
 │   │   └── ingest.py                Qdrant ingestion pipeline
-│   ├── pageindex/                   (uses query_executor.py)
-│   ├── graph_indexed/               (uses query_executor.py)
+│   ├── pageindex/
+│   │   └── dataset_selector.py      LLM reads the collection tree to select datasets
+│   ├── graph_indexed/
+│   │   └── cypher_selector.py       LLM generates + executes Cypher to select datasets
+│   ├── agentic/
+│   │   └── agent.py                 Multi-turn tool-use loop over the shared tools
 │   └── postgis/
 │       └── spatial_query.py         PostGIS spatial SQL execution
 │
 └── evaluation/
-    ├── judge_scoring.py             LLM-as-judge with structured tool_use output
+    ├── judge_scoring.py             LLM-as-judge with structured tool_use output (0–3)
     └── statistical_tests.py         Bootstrap CIs, paired tests, judge calibration
 ```
 
