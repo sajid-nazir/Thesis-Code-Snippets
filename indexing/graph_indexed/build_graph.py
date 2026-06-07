@@ -10,7 +10,8 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 
-NEO4J_URL = "http://localhost:7474/db/neo4j/query/v2"
+import os
+NEO4J_URL = os.environ.get("NEO4J_URL", "<neo4j-http-endpoint>")
 
 
 def run_cypher(statement):
